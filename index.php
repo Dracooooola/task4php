@@ -1,5 +1,8 @@
 <?php
-require_once 'carshering.php';
+require_once 'classes/StandartCarshering.php';
+require_once 'classes/DailyCarshering.php';
+require_once 'classes/HourlyCarshering.php';
+require_once 'classes/StudentCarshering.php';
 
 $classInstance = new StandartCarshering();
 $result = $classInstance->priceСalculation(26, 100, 40, true, false);
